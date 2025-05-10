@@ -46,16 +46,17 @@ p {
 }
 
 .anki-card th {
-    background-color: /* #f0f0f0 */ #F5EFE0;
+    background-color: /* #f0f0f0 #F5EFE0 */ #E5DFD0;
+    color: #668;
     padding: 0.8rem;
-    text-align: left;
+    text-align: center;
     font-weight: 600;
-    border: 1px solid #ddd;
+    border: 1px solid /* #ddd; */ #bbd;
 }
 
 .anki-card td {
     padding: 1rem;
-    border: 1px solid #ddd;
+    border: 1px solid #bbd;
     vertical-align: top;
 }
 
