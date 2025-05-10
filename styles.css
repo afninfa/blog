@@ -26,7 +26,7 @@ body {
 }
 
 h3 {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     margin-top: 2rem;
     color: /* #2c3e50 */ #2a3a70;
 }
@@ -108,10 +108,11 @@ p {
 }
 
 .tip {
-    background-color: #e3f2fd;
+    background-color: #E4E4D5;
     padding: 1rem;
     border-radius: 4px;
     margin: 1.5rem 0;
+    font-style: italic;
 }
 
 .tip-title {
@@ -140,16 +141,16 @@ img {
 .pitch .h::before {
     content: "";
     position: absolute;
-    top: 0px; /* Lower this value to move the line down */
+    top: -1px; /* Lower this value to move the line down */
     left: 0;
     right: 0;
-    height: 2px;
+    height: 1px;
     background-color: #e74c3c;
 }
 
 .pitch .l {}
 
 .pitch .h + .l {
-    border-left: 2px solid #e74c3c;
+    border-left: 1px solid #e74c3c;
     margin-left: -1px;
 }
