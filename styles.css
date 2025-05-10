@@ -132,8 +132,22 @@ img {
     padding: 0 0.1em;
 }
 
-.pitch .h {
+/* .pitch .h {
     border-top: 2px solid #e74c3c;
+} */
+
+.pitch .h {
+    position: relative;
+}
+
+.pitch .h::before {
+    content: "";
+    position: absolute;
+    top: 0px; /* Lower this value to move the line down */
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #e74c3c;
 }
 
 .pitch .l {}
